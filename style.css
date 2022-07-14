@@ -15,13 +15,13 @@ footer
 {
     background-image: url("imagens/rodape-desktop.jpg");
     position: relative;
-    padding: 80px 0 27px 0;  
+    padding: 54px 0 54px 0;  
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.center-form
+.center
 {
     display: flex;
     justify-content: center;
@@ -39,6 +39,11 @@ footer
 
 .listCSV
 {
-    margin: auto;
+    padding: 10px auto 10px auto;
     background-color: white;
+}
+
+.footer-text
+{
+
 }
