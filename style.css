@@ -1,0 +1,44 @@
+
+*{margin:0;}
+header
+{
+    padding: 27px;
+}
+
+body
+{   
+    background-color:#29abe2;
+    background-size: contain;
+}
+
+footer
+{
+    background-image: url("imagens/rodape-desktop.jpg");
+    position: relative;
+    padding: 80px 0 27px 0;  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.center-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.menuSec
+{
+    background-image: url("imagens/index-image.jpg");
+    width: 100%!important;
+    height: 575px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.listCSV
+{
+    margin: auto;
+    background-color: white;
+}
