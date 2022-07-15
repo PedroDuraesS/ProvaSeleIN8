@@ -34,6 +34,12 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     outline: none;
 }
 
+h1
+{
+    text-align: center;
+    font-family: Helve;
+}
+
 .line
 {
     background-color: white;
@@ -62,6 +68,25 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     background-size: cover;
 }
 
+.botao
+{
+    color: #29abe2;
+    font-size: 3.0rem;
+    background-color: #012d51;
+    padding: 7px;
+    width: 40%;
+    max-width: 400px;
+    border: 1px solid #012d51;
+}
+
+.botao:hover
+{
+    cursor: pointer;
+    border-left: 10px solid rgb(40, 0, 80);
+    border-bottom: 10px solid rgb(40, 0, 80);
+    -webkit-transition: 0.5s;
+}
+
 .listCSV
 {
     padding: 10px auto 10px auto;
@@ -71,4 +96,24 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 .footer-text
 {
 
+}
+
+@font-face {
+    font-family: Helve;
+    src: url('Fonts/HelveticaUltraLt_0.ttf');
+}
+
+@font-face {
+    font-family: PS;
+    src: local(PS),url("Fonts/ps.ttf");
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: local(RobotoLight), url("Fonts/Roboto-Light_0.ttf");
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: local(RobotoRegular), url("Fonts/Roboto-Regular_0.ttf");
 }
