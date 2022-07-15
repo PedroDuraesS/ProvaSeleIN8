@@ -72,9 +72,9 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 .botao
 {
     color: #29abe2;
-    font-size: 90%;
+    font-size: 120%;
     background-color: #012d51;
-    padding: 5px;
+    padding: 7px;
     min-width:77%;
     border: 1px solid #012d51;
 }
@@ -82,8 +82,8 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 .botao:hover
 {
     cursor: pointer;
-    border-left: 10px solid rgb(40, 0, 80);
-    border-bottom: 10px solid rgb(40, 0, 80);
+    background-color: #0a4c83;
+    border-radius: 25px;
     -webkit-transition: 0.5s;
 }
 
