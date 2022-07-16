@@ -1,13 +1,11 @@
 
 *{margin:0;}
-header
+nav
 {
-    padding: 27px;
 }
 
 body
-{   
-    background-color:#29abe2;
+{
     background-size: contain;
 }
 
@@ -34,6 +32,7 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     outline: none;
     padding: 0;
     font-size: 120%;
+    font-family: PS;
 }
 
 .line
@@ -66,31 +65,34 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 
 .cadastro
 {
-    width: 35%;
+    background-color: #29abe2;
+    margin: auto;
+    padding: auto;
 }
 
-.botao
+.button
 {
     color: #29abe2;
-    font-size: 120%;
+    font-size: 125%;
     background-color: #012d51;
-    padding: 7px;
-    min-width:77%;
+    padding: 5px;
+    min-width:70%;
+    width: 30px;
     border: 1px solid #012d51;
 }
 
-.botao:hover
+.button:hover
 {
     cursor: pointer;
     background-color: #0a4c83;
+    border: 1px solid #0a4c83;
     border-radius: 25px;
     -webkit-transition: 0.5s;
 }
 
 .listCSV
 {
-    padding: 10px auto 10px auto;
-    background-color: white;
+    
 }
 
 .footer-text
@@ -99,20 +101,25 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6
+{
+    font-family: HELVES;
+}
+
 .title
 {
     margin: 0;
-    font-size: 54px;
     color: white;
-    
-    margin-top: 104px;
+    margin-top: 12%;
+    font-size: 3.2rem;
+    font-family: Helvetic;
 }
 
 .title2
 {
     margin: 30px;
     font-size: 200%;
-    font-family: Helve;
+    font-family: RobotoRegular;
 }
 
 .elementForm
@@ -120,27 +127,33 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     margin-bottom: 15px;
 }
 
+.elementForm p
+{
+    font-family: RobotoRegular;
+}
+
 .footer-text p
 {
     margin: 17px;
+    font-family: RobotoLight;
 }
 
 @font-face {
-    font-family: Helve;
-    src: url('Fonts/HelveticaUltraLt_0.ttf');
+    font-family: Helvetic;
+    src: url("Fonts/HelveticaUltraLt_0.ttf");
 }
 
 @font-face {
     font-family: PS;
-    src: local(PS),url("Fonts/ps.ttf");
+    src: url("Fonts/ps.ttf");
 }
 
 @font-face {
     font-family: RobotoLight;
-    src: local(RobotoLight), url("Fonts/Roboto-Light_0.ttf");
+    src: url("Fonts/Roboto-Light_0.ttf");
 }
 
 @font-face {
     font-family: RobotoRegular;
-    src: local(RobotoRegular), url("Fonts/Roboto-Regular_0.ttf");
+    src: url("Fonts/Roboto-Regular_0.ttf");
 }

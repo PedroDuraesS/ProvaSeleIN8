@@ -7,48 +7,50 @@
     </head>
     <body>
         <section class="menuSec" data-img="imagens/index-image.jpg">
-            <header>  
-                <p>Menu</p>
-            </header>
+            <nav class="navbar container">
+                <a class="navbar-brand offset-1" href="#">
+                  <img src="icones/logo-in8-dev.svg" width="170" alt="">
+                </a>
+            </nav>
             <div class="container">
-                <div class="offset-2 title">
-                    <h1>ESTÁGIO</h1>
-                    <h6>PROVA DE SELEÇÃO</h6>
+                <div class="offset-1 title">
+                    <h1 class="ms-3">ESTÁGIO</h1>
+                    <h6 class="ms-3">PROVA DE SELEÇÃO</h6>
                 </div>
             </div>
         </section>
 
-        <section class="center container">
-            <div class="cadastro">
+        <section class="center cadastro">
+            <div class="container">
                 <h1 class="center title2" style="color: white;">CADASTRO</h1>
-                <div class="form offset-1 col-10 offset-1">
+                <div class="offset-4 col-4 offset-4">
                     <form>
                         <div class="elementForm">
                             <p>Nome</p>
-                            <input type="text" id="nome" name="nome">
+                            <input type="text" id="nome" name="nome" required placeholder="Fulano da Silva Abreu">
                             <div class="line"></div>
                         </div>
 
                         <div class="elementForm">
                             <p>E-mail</p>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required placeholder="fulano@psin8.com">
                             <div class="line"></div>
                         </div>
 
                         <div class="elementForm">
                             <p>Nascimento</p>
-                            <input type="date" id="data" name="data">                
+                            <input type="date" id="date" name="data" >                
                             <div class="line"></div>
                         </div>
 
                         <div class="elementForm">
                             <p>Telefone</p>
-                            <input type="tel" id="telefone" name="telefone" required placeholder="(99) 9 9999-9999">
+                            <input type="tel" id="tel" name="telefone" required placeholder="(99) 9 9999-9999">
                             <div class="line"></div>
                         </div>
 
                         <div class="center m-xl-5" style="margin:20px;">
-                            <button type="submit" name="Botão" class="botao">CADASTRAR</button>
+                            <button type="submit" name="Botão" class="button" onclick="CInputs()">CADASTRAR</button>
                         </div>
                     </form>
                 </div>
@@ -66,7 +68,7 @@
                 <p>Faculdade de Belo Horizonte</p>
             </div>
         </footer>
-        <script src="script.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
 
