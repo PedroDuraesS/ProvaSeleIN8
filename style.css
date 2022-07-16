@@ -14,6 +14,12 @@ form
     color: white;
 }
 
+table
+{
+    margin: 7vh;
+    border-collapse: collapse;
+}
+
 footer
 {
     background-image: url("imagens/rodape-desktop.jpg");
@@ -92,7 +98,37 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 
 .listCSV
 {
-    
+
+}
+
+.cab
+{
+    color: #012d51 !important;
+    font-family: PS;
+}
+
+.mei-Elem
+{
+    color: #808080;
+    width: 120%;
+    padding: 5px;
+    border-right: 1px solid #29abe2;
+    border-bottom: 1px solid #29abe2;
+    font-family: RobotoRegular;
+}
+
+.fin-Elem
+{
+    font-family: RobotoRegular;
+    color: #808080;
+    width: 120%;
+    padding: 5px;
+    border-bottom: 1px solid #29abe2;
+}
+
+.bai-Elem
+{
+    border-right: 1px solid #29abe2;
 }
 
 .footer-text
@@ -137,6 +173,13 @@ h1, h2, h3, h4, h5, h6
     margin: 17px;
     font-family: RobotoLight;
 }
+
+#number
+{
+    
+}
+
+
 
 @font-face {
     font-family: Helvetic;

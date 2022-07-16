@@ -1,15 +1,18 @@
 function CInputs()
 {
-    let nome = document.getElementById("nome").value;
-    let email = document.getElementById("email").value;
-    let date = document.getElementById("date").value;
-    let tel = document.getElementById("tel").value;
+    const table = document.querySelector("#table");
 
-    console.log(nome);
-    console.log(email);
-    console.log(date);
-    console.log(tel);
-
+    let CAD = {
+        nome: document.getElementById("nome").value,
+        email: document.getElementById("email").value,
+        date: document.getElementById("date").value,
+        tel: document.getElementById("tel").value,
+    };
+    console.log(CAD.nome);
+    console.log(CAD.email);
+    console.log(CAD.date);
+    console.log(CAD.tel);
 }
+
 
 
