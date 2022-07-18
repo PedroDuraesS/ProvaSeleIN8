@@ -1,5 +1,12 @@
-
 *{margin:0;}
+*:hover
+{
+    .CAB
+    {
+        position: fixed;
+    }
+}
+
 nav
 {
 }
@@ -41,6 +48,35 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     font-family: PS;
 }
 
+::-webkit-calendar-picker-indicator
+{
+    background-color: white;
+    border-radius:20%;
+    padding: 3px;
+    margin-bottom: 2px;
+}
+
+.CAB
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.listCAB
+{
+    color: white;
+    display: flex;
+}
+
+a
+{
+    margin: 0px 35px 0px 0px;
+}
+
+.listMenu
+{
+    color: white;
+}
 .line
 {
     background-color: white;
@@ -81,10 +117,12 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
     color: #29abe2;
     font-size: 125%;
     background-color: #012d51;
-    padding: 5px;
-    min-width:70%;
-    width: 30px;
     border: 1px solid #012d51;
+    margin-bottom: 20px;
+    padding: 5px;
+    width:30px;
+    min-width:79%;
+    max-width:auto;
 }
 
 .button:hover
@@ -98,7 +136,8 @@ input[type=text], input[type=email], input[type=date], input[type=tel]
 
 .listCSV
 {
-
+    padding: 0;
+    height: 100%
 }
 
 .cab
@@ -176,9 +215,9 @@ h1, h2, h3, h4, h5, h6
 
 #number
 {
-    
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
 
 
 @font-face {
@@ -199,4 +238,27 @@ h1, h2, h3, h4, h5, h6
 @font-face {
     font-family: RobotoRegular;
     src: url("Fonts/Roboto-Regular_0.ttf");
+}
+
+@media screen and (max-width: 576px)
+{
+    .menuSec
+    {
+        background-image: url("imagens/index-image-mobile.jpg");
+        width: 100%!important;
+        height: 850px;
+    }
+
+    .title
+    {
+        margin: 0;
+        font-size: 4rem;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    footer
+    {
+        background-image: url("imagens/rodape-mobile.jpg");
+    }
 }

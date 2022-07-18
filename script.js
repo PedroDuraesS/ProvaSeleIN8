@@ -12,7 +12,6 @@ function CInputs()
     console.log(CAD.email);
     console.log(CAD.date);
     console.log(CAD.tel);
+
+    
 }
-
-
-
